@@ -49,7 +49,6 @@
 		return
 
 	if(href_list["announce"])
-		on_report()
 		send_report()
 	else if(href_list["remove"])
 		qdel(src)
